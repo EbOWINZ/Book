@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body {
+    margin: 0;
+}
+
+p {
+    line-height: 25px;
+}
+
+section {
+    padding: 100px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+
+/* Header style */
+header {
+    width: 100%;
+    height: 75px;
+    padding: 0 15px;
+    background-color: #063547;
+    z-index: 100;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+nav * {
+    display: inline-block;
+}
+
+nav li {
+    padding: 0 25px;
+}
+
+header form {
+    height: 42px;
+}
+
+
+input,
+textarea {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    font-size: 1.05em;
+    padding-left: 15px;
+}
+
+
+/* main style */
+
+/* slider */
+.slider{
+    background-color: #F5F6F9;
+}
+
+.slider-text h2 {
+    color: #47B99E;
+    font-size: 1.3em;
+}
+
+.slider-text h3 {
+    font-size: 3em;
+    width: 400px;
+}
+
+.slider img{
+    width: 600px;
+    height: 400px;
+}
+
+.slider button{
+    border: none;
+    border-radius: 20px;
+    background-color: #47B99E;
+    width: 150px;
+    height: 30px;
+}
+.slider-text{
+    max-width: 550px;
+}
+/* categories */
+
+.cat > .imgcat{
+    background-color: #F5F6F9;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.imgcat > img{
+    position: absolute;
+    left: 22px;
+    top: 23px;
+    width: 50px;
+}
+
+.cat{
+    width: 30.33%;
+}
+
+.cat-content h3, .cat-content h4, .cat-content p{
+    text-align: center;
+}
+/* about */
+.about{
+    background-color: #F5F6F9;
+}
+.about-text h3 {
+    font-size: 2em;
+    width: 400px;
+}
+
+.about img{
+    width: 600px;
+    height: 400px;
+}
+
+.about button{
+    border: none;
+    border-radius: 20px;
+    background-color: #47B99E;
+    width: 150px;
+    height: 30px;
+}
+.about-text{
+    max-width: 550px;
+}
+
+/* customers */
+.customer-text{
+    background-color: #063547;
+    color: #fff;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.customer img{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.customer{
+    display: flex;
+}
+
+.customer p{
+    margin-left: 2%;
+}
+
+.customer-text i{
+    font-size: 1.5em;
+    display: block;
+    color: #47B99E;
+    margin-top: 20px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.customer span{
+    font-size: 1.2em;
+    font-weight: 700px;
+}
+/* BLOG */
+.articles{
+    max-width: 450px;
+    background-color: #fff;
+    height: 600px;
+    box-shadow: 0 0.5px 15px rgba(140, 140, 140, 0.9);
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.date{
+    background-color: #063547;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 2px;
+    top: 305px;
+}
+.blog-text{
+    padding: 15px;
+}
+
+.blog button{
+    border: none;
+    border-radius: 20px;
+    background-color: #47B99E;
+    width: 150px;
+    height: 30px;
+}
+
+.blog{
+    background-color: #F5F6F9;
+}
+
+/* CONTACT */
+
+.contact input,
+.contact textarea {
+    background-color: #F1F1F1;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 15px 0;
+    height: 50px;
+}
+
+.contact textarea {
+    height: 125px;
+    resize: none;
+}
+
+.contact img{
+    width: 500px;
+    height: 500px;
+}
+
+.contact button{
+    border: none;
+    border-radius: 20px;
+    background-color: #47B99E;
+    width: 450px;
+    height: 30px;
+}
+.contact-input{
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #063547;
+    color: white;
+}
+
+
+.flex > .container-about, .flex > .container-address , .flex > .container-newslettre, .flex > .iframe{
+    max-width: 20%; 
+    min-height: 240px;
+}
+
+footer ul {
+    line-height: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.container-newslettre button{
+    border: none;
+    border-radius: 20px;
+    background-color: #47B99E;
+    width: 245px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.container-newslettre input{
+    width: 250px;
+    height: 40px;
+}
+.sous-footer{
+    background-color: beige;
+    color: #063547;
+    font-size: 1em;
+    text-align: center;
+    padding: 1% 1%;
+
+}
