@@ -301,3 +301,13 @@ footer ul {
     padding: 1% 1%;
 
 }
+
+footer i {
+    text-align: center;
+    color: #063547;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
